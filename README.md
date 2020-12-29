@@ -8,11 +8,11 @@ Includes
 
 Available versions:
 ```
-FROM shvid/cuda-dev:10.2-devel-cp36-ubuntu18.04
+FROM shvid/cuda-dev:10.2-bazel-3.1.0-cp36-ubuntu18.04
 ```
 
 # Run
 
 ```
-docker run -it --rm --runtime=nvidia shvid/cuda-dev:10.2-devel-cp36-ubuntu18.04 nvidia-smi
+docker run -it --rm --runtime=nvidia shvid/cuda-dev:10.2-bazel-3.1.0-cp36-ubuntu18.04 nvidia-smi
 ```
